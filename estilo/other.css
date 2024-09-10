@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 712px) {
+   #one{
+
+   height: 650px;
+   }
+
+   .one_p{
+    width: 300px;
+   }
+
+   #two{
+      height: 450px;
+   }
+
+   #three{
+    height: 450px;
+   }
+}

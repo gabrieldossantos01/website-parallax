@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --preto150:#282E34;
+    --preto100: #666666;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.efeito{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#start{
+    background-image: url(../img/pexels-nout-gons-80280-378570.jpg);
+    width: 100%;
+    height: 735px;
+    position: relative;
+}
+
+#start_p{
+    background-color: #4b4e51c3;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 1.4em;
+    font-family: 'Sometype Mono', monospace;
+    text-align: center;
+    width: 350px;    
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#one{
+    background-color: #F4F4F4;
+    color: #666666;
+  
+    padding: 20px;
+    height: 330px;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    line-height: 25px;
+}
+
+#one_h{
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.pp{
+    display: block;
+    width: 1100px;
+    
+}
+
+#two_text{
+    background-image: url(../img/pexels-apasaric-325185.jpg);
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+#two_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #4b4e51c3;
+    font-size: 1.3em;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#two_h{
+   margin-bottom: 30px;
+}
+
+
+#two{
+    background-color: var(--preto150);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 320px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    line-height: 25px;
+}
+
+#three_text{
+    background-image: url(../img/pexels-tatiana-fet-420381-1105766.jpg);
+    height: 350px;
+    position: relative;
+}
+
+#three_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.3em;
+    color: #ffffffe4;
+
+  
+}
+
+#three{
+    background-color: var(--preto150);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 320px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    line-height: 25px;
+}
+
+#media{
+    background-image: url(../img/pexels-nout-gons-80280-378570.jpg);
+    width: 100%;
+    height: 735px;
+    position: relative;
+}
+
+#media_h{
+  background-color: #4b4e51c3;
+  color: rgba(255, 255, 255, 0.671);
+ font-size: 1.4em;
+ width: 350px;
+ text-align: center;
+ padding: 10px;
+ font-family: 'Sometype Mono', monospace;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}   
